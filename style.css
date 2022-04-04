@@ -1,3 +1,43 @@
 body {
   background-color: aliceblue;
 }
+
+#hero {
+  background-image: url('./img/dj.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+}
+
+#hero h1 {
+  color:white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-container table {
+  width: 100%;
+}
+
+.table-container td, .table-container th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-container thead th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0f62cf;
+  color: white;
+}
+
+.table-container tbody tr:nth-child(even){background-color: #f2f2f2;}
